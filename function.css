@@ -1,0 +1,72 @@
+.FF{
+  position:absolute;
+  left: 1220px;
+  top: 15px;
+}
+
+.GG{
+  position:absolute;
+  left: 200px;
+  top: 450px;
+}
+
+.HH{
+  position:absolute;
+  left: 600px;
+  top: 450px;
+}
+
+.II{
+  position:absolute;
+  left: 1000px;
+  top: 450px;
+}
+
+.JJ{
+  position:absolute;
+  left: 150px;
+  top: 20px;
+}
+
+.KK{
+  position:absolute;
+  left: 320px;
+  top: 400px;
+}
+
+.LL{
+  position:absolute;
+  left: 720px;
+  top: 400px;
+}
+
+.MM{
+  position:absolute;
+  left: 1030px;
+  top: 400px;
+}
+
+.button1{
+  position:absolute;
+  left: 750px;
+  top: 145px;
+}
+map{
+}
+.button2{
+  position:absolute;
+  left: 750px;
+  top: 200px;
+}
+
+.button3{
+  position:absolute;
+  left: 750px;
+  top: 260px;
+}
+
+.button6{
+  position:absolute;
+  left: 750px;
+  top: 320px;
+}

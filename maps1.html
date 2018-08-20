@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" 			href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.1.3/css/ol.css" type="text/css">
+  <link rel="stylesheet" href="function.css">
+  <style>
+    .map1 {
+      height: 700px;
+      width: 100%;
+      background: #fffff2;
+    }
+  </style>
+  <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.1.3/build/ol.js"></script>
+  <title>OpenLayers example</title>
+
+<style>
+body {
+    font-family: Arial;
+    color: white;
+}
+
+</style>
+</head>
+<body>
+
+  <div id="map1" class="map1"></div>
+  <script type="text/javascript">
+    var map = new ol.Map({
+      target: 'map1',
+      layers: [
+        new ol.layer.Tile({
+          source: new ol.source.OSM()
+        })
+      ],
+      view: new ol.View({
+        center: ol.proj.fromLonLat([-73.990623, 40.751016]),
+        zoom: 17
+      })
+    });
+  </script>
+
+  </div>
+</div>
+
+</body>
+</html>

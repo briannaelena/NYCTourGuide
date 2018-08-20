@@ -1,0 +1,34 @@
+body{
+ background-color: #fffff2 ;
+}
+
+h2 {
+  text-decoration: underline;
+}
+h3 {
+  text-decoration: underline;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+ul#facts{
+  list-style-type: none;
+}
+
+
+.funfacts{
+  float: right;
+  width: 50%;
+}
+
+.funfacts li{
+  padding: 20px;
+}
+
+.main:after{
+  content:"";
+  display:table;
+  clear:both;
+}

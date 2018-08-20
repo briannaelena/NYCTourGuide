@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="finl5.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<style>
+
+body {background-color: #fffff2;}
+h1   {color: blue;}
+p    {color: black; font-size:25px;}
+h2   {color: black; font-size:25px;}
+h3   {color: black; fron-size:25px;}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+  <div class="sidenav">
+    <a href="Home.html"> Home</a>
+    <a href="Restaurants.html">Restaurants</a>
+    <a href="Attractions.html">Attractions</a>
+    <a href="Events.html"> Events</a>
+    <a href="finl.html"> Transportation</a>
+    <a href="finl5.html"> Discounts</a>
+  </div>
+
+<center>
+<h1>TCTNS</h1>
+<h2>Submitted Customer Info Check</h2>
+</center>
+
+<div class="row">
+  <div class="column" style="background-color:#fffff2;">
+    <h2>Costumer Info</h2>
+    <form>
+    Full Name: <br>
+      <input type="text" name="Full Name"><br>
+    Email:<br>
+      <input type="text" name="Email"><br>
+    Contact Number:<br>
+      <input type="text" name="Contact Number"><br>
+    </form>
+  </div>
+  <div class="column" style="background-color:#fffff2;">
+    <h2>Costumer Info 2</h2>
+    <form>
+      Travel Choice:<br>
+      <input type="text" name="Travel Choice"><br>
+      Current Location:<br>
+      <input type="text" name="Current Location"><br>
+      Final Destination:<br>
+      <input type="text" name="Final Destination"><br>
+    </form>
+  </div>
+</div>
+
+<form>
+  <input type="submit" value="Submit">
+  <input type="reset">
+  <form action="/action_page.php" method="get">
+</form>
+
+
+<h2>Discounts</h2>
+
+
+<div class="row">
+  <div class="column" style="background-color:#fffff2;">
+    <h2>Cab Services</h2>
+      <li>$8 off 1 hour ride to Queens</li>
+      <li>25% off 1 hour ride to Manhattan</li>
+      <li>$8 off 1 hour ride to Brooklyn</li>
+      <li>25% off 1 hour ride to Bronx</li>
+      <li>25% off 1 hour travel to Staten Island</li>
+      <p> Discount price divided by 2 for all rides 30 minutes & under</p>
+
+    </li>
+  </div>
+  <div class="column" style="background-color:#fffff2;">
+    <h2>Uber-Lyft Services</h2>
+    <li>$5 off 1 hour ride to Queens</li>
+    <li>$5 off 1 hour ride to Manhattan</li>
+    <li>$5 off 1 hour ride to Brooklyn</li>
+    <li>$10 off 1 hour ride to Bronx</li>
+    <li>$10 off 1 hour travel to Staten Island</li>
+    <p> Discount price divided by 2 for all rides 30 minutes & under</p>
+
+    </li>
+  </div>
+</div>
+
+</body>
+</html>
